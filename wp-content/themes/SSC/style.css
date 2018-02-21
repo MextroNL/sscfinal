@@ -1,0 +1,607 @@
+/*NAVIGATIE*/
+
+.metasliderblok{
+    padding-left: 0!important;
+}
+
+.navigatiemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.navigatiemenu ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+
+}
+
+.navigatiemenu ul li{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navigatiemenu ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu ul li {
+    padding: 10px 5px 10px 5px;
+    color: black;
+}
+
+.menu a {
+    color: black;
+}
+
+.uk-navbar {
+    background: none !important;
+    color: #444;
+    border: none !important;
+    border-bottom-color: none !important;
+
+}
+
+.hamburger {
+    color: black;
+}
+
+.hamburger .menu{
+ color: black;
+}
+
+.hamburgermenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+.navigatiemenu ul {
+    margin-bottom: 0px;
+!important
+}
+
+.socialbutton {
+    padding: 8px;
+    border-style: solid;
+    border-color: #6bb444;
+    border-radius: 50%;
+    border-width: 2px;
+    color: #6bb444;
+    border-color: #6bb444;
+    width: 1rem;
+    text-align: center;
+}
+
+.socialbuttons {
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+
+.socialbutton img {
+    justify-content: center;
+}
+
+.ssclogo {
+    width: 95px;
+    padding-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding-left: 1.5em;
+}
+
+.navigatiebalk {
+    height: 9em;
+}
+
+.navigatielogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uk-navbar-toggle{
+    color: #6bb444;
+    font-size: 3em!important;
+    margin-top: -2.5em;
+}
+
+.uk-navbar-toggle:hover {
+    color: green;
+}
+
+.metaslider img {
+    position: relative;
+}
+
+.uk-offcanvas-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    z-index: 1001;
+    width: 270px;
+    max-width: 100%;
+    background: #6bb444;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    -ms-scroll-chaining: none;
+}
+
+.uk-offcanvas .uk-panel a:not([class]) {
+    color: #fff;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 1.2em;
+}
+.current_page_item > a{
+    border-bottom: 4px solid #6bb444;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+    /*HEADER*/
+.ml-slider-3-6-7, .metaslider, .metaslider-flex, .metaslider-67, .ml-slider img {
+    width: 100%!important;
+    padding-left: 0!important;
+    margin-left: 0!important;
+}
+
+.slides {
+    padding-left: 0!important;
+}
+
+.metaslider metaslider-nivo metaslider-23 ml-slider {
+    position: relative!important;
+}
+
+/*.ssccaption {*/
+    /*position: absolute;*/
+    /*font-size: 7em;*/
+    /*font-weight: bold;*/
+    /*opacity: 0.8;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*top: 40%;*/
+    /*line-height: 1.1em;*/
+
+/*}*/
+
+.caption-wrap {
+    position: absolute!important;
+    background: none !important;
+    top: 40% !important;
+    font-size: 7em;
+    font-weight: bold!important;
+    line-height: 1em !important;
+    color: white !important;
+    opacity: 0.8!important;
+    text-align: center!important;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+    width: 100%;
+    margin-left: auto;
+}
+
+.slidelow-button {
+    position: absolute!important;
+    border-radius: 2px;
+    background-color: #6bb444;
+    border: none;
+    font-size: 1.1em;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 40px;
+    bottom: 200px;
+    right: 100px;
+    z-index: 2;
+}
+.slidelow-button a{
+    color: white;
+}
+.slidelow-klein {
+    position: absolute!important;
+    border-radius: 2px;
+    background-color: #6bb444;
+    border: none;
+    font-size: 1.1em;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 40%;
+    bottom: 20%;
+    height: 40px;
+    z-index: 2;
+
+}
+
+.slidelow-button span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+
+.slidelow-button span:after {
+    content: '\00bb';
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.slidelow-button:hover span {
+    padding-right: 25px;
+
+}
+
+.slidelow-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*CONTENT HOME*/
+
+.posttitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    line-height: 1.2em;
+}
+
+.postcontent {
+    margin-bottom: 30px;
+    margin-right: 8em;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.videoblok {
+    max-width: 50%;
+}
+
+iframe {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+
+.tussenlijn {
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 2px;
+    margin-top: 20px;
+}
+
+.headertitle {
+    font-size: 50px;
+}
+
+.paginas {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.paginatitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:30px;
+    margin-top: 20px;
+}
+
+.vlakbutton {
+    border-radius: 2px;
+    background-color: #f89d32;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 7px;
+    width: 106px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+
+}
+
+.vlakbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.vlakbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.vlak {
+    width: 33%;
+    float: right;
+}
+
+.vlakbutton:hover span {
+    padding-right: 25px;
+}
+
+.vlakbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.paginablok {
+    margin-top: 30px;
+}
+
+.thumbnail {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+/* OVER ONS PAGINA */
+
+.content-text {
+    max-width:70%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.werkzaamheden {
+    display: flex;
+    justify-content: center;
+}
+
+.werkzaamhedenimg {
+    width: 100px;
+    height: 100px;
+}
+
+.werkzaamknop {
+    border-radius: 2px;
+    background-color: #f89d32;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 7px;
+    width: 10em;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+    float:right;
+}
+
+.werkzaamknop span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+
+.werkzaamknop span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.vlak {
+    width: 33%;
+    float: right;
+}
+
+.werkzaamknop:hover span {
+    padding-right: 25px;
+}
+
+.werkzaamknop:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.uk-grid {
+     margin-left: 0px!important;
+}
+
+/* PROJECTENPAGINA */
+
+.projectengrid {
+    text-align: center;
+}
+
+.projectenblok {
+    margin-bottom: 20px;
+}
+
+.projectfoto {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 20em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectfoto img {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnailblok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meerinformatie {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.meerinformatie:hover{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.projectthumbnail {
+    margin-top: 25px;
+    margin-right: 25px;
+    width: 500px;
+}
+
+/*CONTACT-PAGINA*/
+
+.second-titel {
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (min-width: 0px) and (max-width: 550px) {
+    .caption-wrap{
+        font-size: 2em!important;
+    }
+    iframe {
+         margin-left: 0!important;
+     }
+    .videoblok {
+        max-width: 100%!important;
+    }
+
+    .posttitle {
+        line-height: 1.3em!important;
+    }
+
+    .footercontent {
+       padding-right: 125px!important;
+    }
+
+    .title {
+        font-size: 1.5em!important;
+    }
+
+    .ssccaption {
+        font-size: 4em!important;
+        font-weight: none!important;
+    }
+}
+
+@media all and (min-width: 551px) and (max-width: 1000px) {
+    .nivo-caption{
+        font-size: 3em!important;
+    }
+
+    .posttitle {
+        line-height: 1.2em!important;
+    }
+    .caption-wrap {
+        font-size: 3em!important;
+
+    }
+
+}
+
+@media all and (min-width: 800px) and (max-width: 1450px) {
+    .videoblok, .contentblok{
+        width: 80%!important;
+    }
+    .caption-wrap {
+        font-size: 3.7em!important;
+
+    }
+
+
+
+}
+
+
+/*PROJECTAANVRAGEN*/
+
+.project-form {
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #6bb444;
+    margin-top: 50px;
+}
+
+.footercontent {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+
+
+.fa-map-marker, .fa-phone, .fa-envelope {
+    margin-right: 5px;
+}
+
+/*MEERDERE PAGINAS*/
+
+.titel img {
+    width: 100px;
+    text-align: center;
+}
+
+.titel {
+    font-weight: bold;
+    font-size: 2.5em;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+
+
