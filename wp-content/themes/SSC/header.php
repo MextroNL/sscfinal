@@ -25,11 +25,14 @@
     <div class="uk-width-large-1-2 uk-hidden-small uk-hidden-medium navigatiemenu">
         <?php html5blank_nav(); ?>
         <div class="socialbuttons uk-hidden-medium uk-hidden-small">
-            <a target="blank" href="https://www.facebook.com/scalda.domeinictbeheer/"> <i class="fa fa-facebook socialbutton"
-                                                                           aria-hidden="true"></i></a>
-            <a target="blank" href="https://twitter.com/SSC_Scalda"> <i class="fa fa-twitter socialbutton" aria-hidden="true"></i></a>
-            <a target="blank" href="https://www.linkedin.com/in/ssc-scalda-bb7410b8"> <i class="fa fa-linkedin socialbutton"
-                                                                          aria-hidden="true"></i></a>
+            <a target="blank" href="https://www.facebook.com/scalda.domeinictbeheer/"> <i
+                        class="fa fa-facebook socialbutton"
+                        aria-hidden="true"></i></a>
+            <a target="blank" href="https://twitter.com/SSC_Scalda"> <i class="fa fa-twitter socialbutton"
+                                                                        aria-hidden="true"></i></a>
+            <a target="blank" href="https://www.linkedin.com/in/ssc-scalda-bb7410b8"> <i
+                        class="fa fa-linkedin socialbutton"
+                        aria-hidden="true"></i></a>
         </div>
 
     </div>
@@ -50,12 +53,16 @@
 
 
 <div class="uk-grid">
-    <a href="http://localhost/sscfinal/projectaanvraag/"><button class="slidelow-button uk-hidden-medium uk-hidden-small">
-        <span>Project aanvragen</span>
-    </button></a>
-    <a href="http://localhost/sscfinal/projectaanvraag/"><button class="slidelow-klein uk-hidden-large">
-        <span>Project aanvragen</span>
-    </button> </a>
+    <a href="http://localhost/sscfinal/projectaanvraag/">
+        <button class="slidelow-button uk-hidden-medium uk-hidden-small">
+            <span>Project aanvragen</span>
+        </button>
+    </a>
+    <a href="http://localhost/sscfinal/projectaanvraag/">
+        <button class="slidelow-klein uk-hidden-large">
+            <span>Project aanvragen</span>
+        </button>
+    </a>
     <div class="uk-width-1-1 metasliderblok">
         <div class="metaslider">
             <?php echo do_shortcode('[metaslider id="67"]'); ?>

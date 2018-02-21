@@ -33,7 +33,7 @@
         <?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
 
             <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 projectengrid">
-            <?php $featured = get_the_post_thumbnail_url($post->ID, 'full', true); ?>
+                <?php $featured = get_the_post_thumbnail_url($post->ID, 'full', true); ?>
 
 
                 <div class="projectfoto" style="background-image: url('<?php echo $featured ?>');">
@@ -48,12 +48,15 @@
         else : ?>
             <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
         <?php endif; ?>
+
     </div>
-
-    <a href="http://localhost/sscfinal/projectaanvraag/">
-        <button class="vlakbutton"><span>Project aanvragen</span></button>
-    </a>
-
+    <div class="uk-grid">
+        <div class="uk-width-1-1 project">
+            <a href="http://localhost/sscfinal/projectaanvraag/">
+                <button class="vlakbutton"><span>Project aanvragen</span></button>
+            </a>
+        </div>
+    </div>
     </div>
     </div>
 <?php get_footer(); ?>
