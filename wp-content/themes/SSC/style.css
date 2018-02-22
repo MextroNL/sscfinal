@@ -69,7 +69,9 @@
     margin-bottom: 0px;
 !important
 }
-
+.navigatiemenu ul li a:hover{
+    color: #888888;
+}
 .socialbutton {
     padding: 8px;
     border-style: solid;
@@ -80,6 +82,11 @@
     border-color: #6bb444;
     width: 1rem;
     text-align: center;
+}
+
+.socialbutton:hover{
+    color: #86ce5c;
+    border-color: #86ce5c;
 }
 
 .socialbuttons {
