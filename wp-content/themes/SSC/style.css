@@ -43,7 +43,7 @@
     background: none !important;
     color: #444;
     border: none !important;
-    border-bottom-color: none !important;
+    border-bottom-color: unset !important;
 
 }
 
@@ -53,12 +53,14 @@
 
 .hamburger .menu{
  color: black;
+
 }
 
 .hamburgermenu {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
 
 }
 
@@ -529,7 +531,7 @@ iframe {
 
     .ssccaption {
         font-size: 4em!important;
-        font-weight: none!important;
+        font-weight: unset !important;
     }
 }
 
@@ -605,6 +607,59 @@ iframe {
     text-align: center;
     line-height: 1.1em;
 }
+.wpcf7{
+    font-size: 125%;
+    text-align: center
+;
+}
 
+.wpcf7 input[type="text"]{
+    padding-left: 1%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #f7f5f5;
+    width: 76%;
+    float: right;
+}
+.wpcf7 input[type="email"]{
+    padding-left: 1%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    background-color: #f7f5f5;
+    width: 76%;
+    float: right;
+}
 
+.wpcf7 textarea
+{
+    height: 1%;
+    resize: none;
+    float: right;
+    border-radius: 5px;
+    background-color: #f7f5f5;
+    border: 1px solid #aaa;
+    width: 76%;
 
+}
+
+.wpcf7 input[type="submit"]{
+    color : #fff;
+    background-color: #f89d32;
+    border: none;
+    height: 40px;
+    border-style: solid;
+    font-size: 15px;
+    border-radius: 10px;
+    float: right;
+}
+.wpcf7 input[type="submit"]:hover{
+    background-color: #fff;
+    color: #f89d32;
+
+}
+input:focus {
+    outline-width: 0;
+}
+textarea:focus {
+    outline-width: 0;
+}
