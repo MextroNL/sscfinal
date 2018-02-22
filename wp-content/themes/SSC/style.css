@@ -618,7 +618,7 @@ iframe {
     border: 1px solid #aaa;
     border-radius: 5px;
     background-color: #f7f5f5;
-    width: 76%;
+    width: 70%;
     float: right;
 }
 .wpcf7 input[type="email"]{
@@ -626,7 +626,7 @@ iframe {
     border-radius: 5px;
     border: 1px solid #aaa;
     background-color: #f7f5f5;
-    width: 76%;
+    width: 70%;
     float: right;
 }
 
@@ -638,7 +638,7 @@ iframe {
     border-radius: 5px;
     background-color: #f7f5f5;
     border: 1px solid #aaa;
-    width: 76%;
+    width: 70%;
 
 }
 
@@ -652,6 +652,14 @@ iframe {
     border-radius: 10px;
     float: right;
 }
+.wpcf7 input[type="number"]{
+    padding-left: 1%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    background-color: #f7f5f5;
+    width: 70%;
+    float: right;
+}
 .wpcf7 input[type="submit"]:hover{
     background-color: #fff;
     color: #f89d32;
@@ -662,4 +670,9 @@ input:focus {
 }
 textarea:focus {
     outline-width: 0;
+}
+
+.wpcf7 form p{
+    padding-right: 5%;
+    text-align: left;
 }
