@@ -56,7 +56,9 @@
     <div class="uk-width-1-1 metasliderblok">
         <div class="metaslider">
             <?php echo do_shortcode('[metaslider id="67"]'); ?>
-
+            <div class="pagename">
+                <?php echo get_query_var('pagename'); ?>
+            </div>
             <!-- Button "Project aanvragen" op de Home -->
 
             <a href="http://localhost/sscfinal/projectaanvraag/">
