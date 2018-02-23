@@ -53,20 +53,22 @@
 
 
 <div class="uk-grid">
-    <a href="http://localhost/sscfinal/projectaanvraag/">
-        <button class="slidelow-button uk-hidden-medium uk-hidden-small">
-            <span>Project aanvragen</span>
-        </button>
-    </a>
-    <a href="http://localhost/sscfinal/projectaanvraag/">
-        <button class="slidelow-klein uk-hidden-large">
-            <span>Project aanvragen</span>
-        </button>
-    </a>
     <div class="uk-width-1-1 metasliderblok">
         <div class="metaslider">
             <?php echo do_shortcode('[metaslider id="67"]'); ?>
+
             <!-- Button "Project aanvragen" op de Home -->
+
+            <a href="http://localhost/sscfinal/projectaanvraag/">
+                <button class="slidelow-button uk-hidden-medium uk-hidden-small">
+                    <span>Project aanvragen</span>
+                </button>
+            </a>
+            <a href="http://localhost/sscfinal/projectaanvraag/">
+                <button class="slidelow-klein uk-hidden-large">
+                    <span>Project aanvragen</span>
+                </button>
+            </a>
         </div>
     </div>
 </div>
