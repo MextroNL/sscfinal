@@ -1,5 +1,5 @@
 <?php
-wp_enqueue_style( 'style', get_stylesheet_uri() );
+wp_enqueue_style('style', get_stylesheet_uri());
 show_admin_bar(false);
 
 
@@ -14,9 +14,7 @@ function register_html5_menu()
 }
 
 
-
-if (function_exists('add_theme_support'))
-{
+if (function_exists('add_theme_support')) {
     // Add Menu Support
     add_theme_support('menus');
 
@@ -62,40 +60,44 @@ function html5blank_nav()
 {
     wp_nav_menu(
         array(
-            'theme_location'  => 'header-menu',
-            'menu'            => '',
-            'container'       => 'div',
+            'theme_location' => 'header-menu',
+            'menu' => '',
+            'container' => 'div',
             'container_class' => 'menu-{menu slug}-container',
-            'container_id'    => '',
-            'menu_class'      => 'menu',
-            'menu_id'         => '',
-            'echo'            => true,
-            'fallback_cb'     => 'wp_page_menu',
-            'before'          => '',
-            'after'           => '',
-            'link_before'     => '',
-            'link_after'      => '',
-            'items_wrap'      => '<ul>%3$s</ul>',
-            'depth'           => 0,
-            'walker'          => ''
+            'container_id' => '',
+            'menu_class' => 'menu',
+            'menu_id' => '',
+            'echo' => true,
+            'fallback_cb' => 'wp_page_menu',
+            'before' => '',
+            'after' => '',
+            'link_before' => '',
+            'link_after' => '',
+            'items_wrap' => '<ul>%3$s</ul>',
+            'depth' => 0,
+            'walker' => ''
         )
     );
 }
 
-function register_my_menus() {
+function register_my_menus()
+{
     register_nav_menus(
         array(
-            'header-menu' => __( 'Navigatiemenu' ),
-            'extra-menu' => __( 'Extra Menu' ),
-            'nav-menu' => __( 'Nav Menu' )
+            'header-menu' => __('Navigatiemenu'),
+            'extra-menu' => __('Extra Menu'),
+            'nav-menu' => __('Nav Menu')
         )
     );
 }
-add_action( 'init', 'register_my_menus' );
 
-function loadScripts(){
-    wp_enqueue_style( 'style', get_stylesheet_uri() );
+add_action('init', 'register_my_menus');
+
+function loadScripts()
+{
+    wp_enqueue_style('style', get_stylesheet_uri());
 }
+
 add_action('wp_enqueue_scripts', 'loadScripts');
 
 ?>
