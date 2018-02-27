@@ -57,7 +57,7 @@
         <div class="metaslider">
             <?php echo do_shortcode('[metaslider id="67"]'); ?>
             <div class="pagename">
-                <?php echo get_query_var('pagename'); ?>
+                <?php echo wp_title(''); ?>
             </div>
             <!-- Button "Project aanvragen" op de Home -->
 
