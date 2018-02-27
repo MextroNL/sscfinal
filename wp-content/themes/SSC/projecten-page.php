@@ -37,7 +37,7 @@
 
 
                 <div class="projectfoto" style="background-image: url('<?php echo $featured ?>');">
-
+                    <a id="imglink" href="<?php the_permalink(); ?>"></a>
                 </div>
                 <a class="meerinformatie" target="_blank"
                    href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a>
