@@ -245,6 +245,23 @@
     right: 0;
 }
 
+.pagename {
+    position: absolute;
+    background: none;
+    top:50%;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1em;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: auto;
+}
+
 /*CONTENT HOME*/
 
 .posttitle {
@@ -508,6 +525,12 @@ iframe {
     .caption-wrap{
         font-size: 2em!important;
     }
+
+    .pagename{
+        font-size: 2em!important;
+    }
+
+
     iframe {
          margin-left: 0!important;
      }
@@ -546,6 +569,11 @@ iframe {
 
     }
 
+    .pagename {
+        font-size: 3em!important;
+
+    }
+
 }
 
 @media all and (min-width: 800px) and (max-width: 1450px) {
@@ -553,6 +581,11 @@ iframe {
         width: 80%!important;
     }
     .caption-wrap {
+        font-size: 3.7em!important;
+
+    }
+
+    .pagename {
         font-size: 3.7em!important;
 
     }
