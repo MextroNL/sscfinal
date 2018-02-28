@@ -20,9 +20,9 @@
         <?php echo get_the_post_thumbnail($post_id = 133); ?>
     </div>
 
-        <div class="uk-width-1-1 project-form">
-            <?php echo do_shortcode('[contact-form-7 id="132" title="Project aanvragen"]'); ?>
-        </div>
+    <div class="uk-width-1-1 project-form">
+        <?php echo do_shortcode('[contact-form-7 id="132" title="Project aanvragen"]'); ?>
+    </div>
 </div>
 
 

@@ -43,7 +43,7 @@
     background: none !important;
     color: #444;
     border: none !important;
-    border-bottom-color: none !important;
+    border-bottom-color: unset !important;
 
 }
 
@@ -53,12 +53,14 @@
 
 .hamburger .menu{
  color: black;
+
 }
 
 .hamburgermenu {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
 
 }
 
@@ -67,7 +69,9 @@
     margin-bottom: 0px;
 !important
 }
-
+.navigatiemenu ul li a:hover{
+    color: #888888;
+}
 .socialbutton {
     padding: 8px;
     border-style: solid;
@@ -78,6 +82,11 @@
     border-color: #6bb444;
     width: 1rem;
     text-align: center;
+}
+
+.socialbutton:hover{
+    color: #86ce5c;
+    border-color: #86ce5c;
 }
 
 .socialbuttons {
@@ -114,10 +123,6 @@
 
 .uk-navbar-toggle:hover {
     color: green;
-}
-
-.metaslider img {
-    position: relative;
 }
 
 .uk-offcanvas-bar {
@@ -163,21 +168,9 @@
     padding-left: 0!important;
 }
 
-.metaslider metaslider-nivo metaslider-23 ml-slider {
-    position: relative!important;
+.metaslider {
+    position: relative;
 }
-
-/*.ssccaption {*/
-    /*position: absolute;*/
-    /*font-size: 7em;*/
-    /*font-weight: bold;*/
-    /*opacity: 0.8;*/
-    /*color: white;*/
-    /*text-align: center;*/
-    /*top: 40%;*/
-    /*line-height: 1.1em;*/
-
-/*}*/
 
 .caption-wrap {
     position: absolute!important;
@@ -185,7 +178,7 @@
     top: 40% !important;
     font-size: 7em;
     font-weight: bold!important;
-    line-height: 1em !important;
+    line-height: 1.5em !important;
     color: white !important;
     opacity: 0.8!important;
     text-align: center!important;
@@ -206,13 +199,12 @@
     transition: all 0.5s;
     cursor: pointer;
     height: 40px;
-    bottom: 200px;
+    bottom: 150px;
     right: 100px;
     z-index: 2;
-}
-.slidelow-button a{
     color: white;
 }
+
 .slidelow-klein {
     position: absolute!important;
     border-radius: 2px;
@@ -222,11 +214,11 @@
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    left: 40%;
-    bottom: 20%;
-    height: 40px;
+    left: 35%;
+    bottom: 10%;
+    height: 30px;
     z-index: 2;
-
+    color: white;
 }
 
 .slidelow-button span {
@@ -244,13 +236,30 @@
 }
 
 .slidelow-button:hover span {
-    padding-right: 25px;
+    padding-right: 0px;
 
 }
 
 .slidelow-button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.pagename {
+    position: absolute;
+    background: none;
+    top:50%;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 2em;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: auto;
 }
 
 /*CONTENT HOME*/
@@ -318,13 +327,16 @@ iframe {
     text-align: center;
     font-size: 14px;
     padding: 7px;
-    width: 106px;
     transition: all 0.5s;
     cursor: pointer;
     margin-right: auto;
     margin-left: auto;
     margin-top: 8px;
+}
 
+.project {
+    display: flex;
+    justify-content: center;
 }
 
 .vlakbutton span {
@@ -454,12 +466,20 @@ iframe {
 .projectfoto {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30em;
-    width: 20em;
+    height: 20em;
+    width: 15em;
     margin-top: 50px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.projectfoto:hover{
+    cursor: pointer;
+    height: 22em;
+    width: 17em;
+    border: 10px solid #86ce5c;
+    border-radius: 10px;
 }
 
 .projectfoto img {
@@ -505,6 +525,12 @@ iframe {
     .caption-wrap{
         font-size: 2em!important;
     }
+
+    .pagename{
+        font-size: 2em!important;
+    }
+
+
     iframe {
          margin-left: 0!important;
      }
@@ -526,7 +552,7 @@ iframe {
 
     .ssccaption {
         font-size: 4em!important;
-        font-weight: none!important;
+        font-weight: unset !important;
     }
 }
 
@@ -543,6 +569,11 @@ iframe {
 
     }
 
+    .pagename {
+        font-size: 3em!important;
+
+    }
+
 }
 
 @media all and (min-width: 800px) and (max-width: 1450px) {
@@ -550,6 +581,11 @@ iframe {
         width: 80%!important;
     }
     .caption-wrap {
+        font-size: 3.7em!important;
+
+    }
+
+    .pagename {
         font-size: 3.7em!important;
 
     }
@@ -602,6 +638,73 @@ iframe {
     text-align: center;
     line-height: 1.1em;
 }
+.wpcf7{
+    font-size: 125%;
+    text-align: center
+;
+}
 
+.wpcf7 input[type="text"]{
+    padding-left: 1%;
+    border: 1px solid #aaa;
+    background-color: #f7f5f5;
+    width: 70%;
+    float: right;
+}
+.wpcf7 input[type="email"]{
+    padding-left: 1%;
+    border: 1px solid #aaa;
+    background-color: #f7f5f5;
+    width: 70%;
+    float: right;
+}
 
+.wpcf7 textarea
+{
+    height: 1%;
+    resize: none;
+    float: right;
+    background-color: #f7f5f5;
+    border: 1px solid #aaa;
+    width: 70%;
 
+}
+
+.wpcf7 input[type="submit"]{
+    color : #fff;
+    background-color: #f89d32;
+    border: none;
+    height: 40px;
+    border-style: solid;
+    font-size: 15px;
+    float: right;
+}
+.wpcf7 input[type="number"]{
+    padding-left: 1%;
+    border: 1px solid #aaa;
+    background-color: #f7f5f5;
+    width: 70%;
+    float: right;
+}
+.wpcf7 input[type="submit"]:hover{
+    background-color: #fff;
+    color: #f89d32;
+
+}
+input:focus {
+    outline-width: 0;
+}
+textarea:focus {
+    outline-width: 0;
+}
+
+.wpcf7 form p{
+    padding-right: 5%;
+    text-align: left;
+}
+
+#imglink{
+    display:inline-block;
+    width:100%;
+    height:100%;
+}

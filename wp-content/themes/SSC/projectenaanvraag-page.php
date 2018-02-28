@@ -36,3 +36,4 @@
     <?php echo do_shortcode('[contact-form-7 id="138" title="Project aanvragen"]'); ?>
     </div>
 </div>
+<?php get_footer(); ?>
