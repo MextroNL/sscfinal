@@ -647,14 +647,12 @@ iframe {
 .wpcf7 input[type="text"]{
     padding-left: 1%;
     border: 1px solid #aaa;
-    border-radius: 5px;
     background-color: #f7f5f5;
     width: 70%;
     float: right;
 }
 .wpcf7 input[type="email"]{
     padding-left: 1%;
-    border-radius: 5px;
     border: 1px solid #aaa;
     background-color: #f7f5f5;
     width: 70%;
@@ -666,7 +664,6 @@ iframe {
     height: 1%;
     resize: none;
     float: right;
-    border-radius: 5px;
     background-color: #f7f5f5;
     border: 1px solid #aaa;
     width: 70%;
@@ -680,12 +677,10 @@ iframe {
     height: 40px;
     border-style: solid;
     font-size: 15px;
-    border-radius: 10px;
     float: right;
 }
 .wpcf7 input[type="number"]{
     padding-left: 1%;
-    border-radius: 5px;
     border: 1px solid #aaa;
     background-color: #f7f5f5;
     width: 70%;
