@@ -35,10 +35,16 @@
             <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 projectengrid">
                 <?php $featured = get_the_post_thumbnail_url($post->ID, 'full', true); ?>
 
+                    <!-- Project Boxes-->
+<!--                <div class="project-box">-->
+                        <div class="projectfoto" style="background-image: url('<?php echo $featured ?>');">
+                            <a id="imglink" href="<?php the_permalink(); ?>"></a>
+<!--                            <div class="project-overlay">-->
+<!--                                <div class="project-excerpt">--><?php //the_excerpt(); ?><!--</div>-->
+<!--                            </div>-->
+                    </div>
+<!--                </div>-->
 
-                <div class="projectfoto" style="background-image: url('<?php echo $featured ?>');">
-                    <a id="imglink" href="<?php the_permalink(); ?>"></a>
-                </div>
                 <a class="meerinformatie" target="_blank"
                    href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a>
             </div>
