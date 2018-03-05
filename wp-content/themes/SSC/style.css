@@ -462,11 +462,13 @@ iframe {
 }
 
 .projectfoto {
+    transition: width 0.3s;
     position: relative;
     z-index: 2;
     background-size: cover;
     background-repeat: no-repeat;
     height: 20em;
+    min-height: 20em;
     width: 15em;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -474,16 +476,9 @@ iframe {
     margin-right: auto;
 }
 
-.projectfoto:hover{
-    transition: width 0.2s;
-    z-index: 4;
-    cursor: pointer;
-    height: 22em;
-    width: 17em;
-    border: 10px solid #86ce5c;
-    border-radius: 10px;
-    margin-top: auto;
-    padding-right: 110px;
+
+.projectfoto:hover ~ .meerinformatie {
+    text-decoration: underline;
 }
 
 .projectfoto img {
@@ -492,24 +487,37 @@ iframe {
 }
 
 .project-excerpt{
+    background-color: rgba(180, 180, 180, 0.45);
     position: absolute;
     text-decoration: none;
     opacity: 0;
     height: 100%;
-    width: 100%;
+    width: auto;
     color: #fff;
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
-    bottom: 0;
+    border-radius: 10px;
+    font-size: 0.9em;
 
 }
 
-.project-excerpt:hover{
-    transition: 0.2s;
-    opacity: 1;
-    text-decoration: none;
+.meerinformatie:hover + .project-box{
+    transition: width 0.5s;
+    z-index: 4;
+    cursor: pointer;
+    height: 23.5em;
+    width: 17em;
+    border: 0px solid #86ce5c;
+    border-radius: 10px;
+    margin-top: auto;
+    padding-right: 110px;
+    padding-bottom: 1px;
 }
+.excerpt-text{
+    margin-top: 33%;
+}
+
 
 .thumbnailblok{
     display: flex;
@@ -518,14 +526,12 @@ iframe {
 }
 
 .meerinformatie {
-    text-decoration: none;
     font-weight: bold;
     font-size: 2em;
     color: black;
 }
 
 .meerinformatie:hover{
-    text-decoration: none;
     font-weight: bold;
     font-size: 2em;
     color: black;
@@ -578,6 +584,7 @@ iframe {
         font-size: 4em!important;
         font-weight: unset !important;
     }
+
 }
 
 @media all and (min-width: 551px) and (max-width: 1000px) {
@@ -598,6 +605,7 @@ iframe {
 
     }
 
+
 }
 
 @media all and (min-width: 800px) and (max-width: 1450px) {
@@ -615,7 +623,29 @@ iframe {
     }
 
 
+}
 
+
+/*PC*/
+@media screen and (min-width:769px) {
+    .projectfoto:hover{
+        transition: width 0.5s;
+        z-index: 4;
+        cursor: pointer;
+        height: 23.5em;
+        width: 17em;
+        border: 0px solid #86ce5c;
+        border-radius: 10px;
+        margin-top: auto;
+        padding-right: 110px;
+        padding-bottom: 1px;
+    }
+    .project-excerpt:hover{
+        transition: linear 0.5s, font-size 1ms;
+        opacity: 1;
+        text-decoration: none;
+        font-size: 1em;
+    }
 }
 
 
