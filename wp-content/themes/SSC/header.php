@@ -28,8 +28,9 @@
             <a target="blank" href="https://www.facebook.com/scalda.domeinictbeheer/"> <i
                         class="fa fa-facebook socialbutton"
                         aria-hidden="true"></i></a>
-            <a target="blank" href="https://twitter.com/SSC_Scalda"> <i class="fa fa-twitter socialbutton"
-                                                                        aria-hidden="true"></i></a>
+            <a target="blank" href="https://twitter.com/SSC_Scalda">
+                <i class="fa fa-twitter socialbutton"
+                   aria-hidden="true"></i></a>
             <a target="blank" href="https://www.linkedin.com/in/ssc-scalda-bb7410b8"> <i
                         class="fa fa-linkedin socialbutton"
                         aria-hidden="true"></i></a>
@@ -46,7 +47,9 @@
 <div id="nav-off" class="uk-offcanvas">
     <div class="uk-offcanvas-bar">
         <div class="uk-panel hamburger">
+            <a href="#nav-off" class="uk-close"></a>
             <?php html5blank_nav(); ?>
+            <div class="copyright"><?php echo 'SSC '.comicpress_copyright(); ?></div>
         </div>
     </div>
 </div>
