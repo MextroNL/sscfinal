@@ -47,7 +47,9 @@
 <div id="nav-off" class="uk-offcanvas">
     <div class="uk-offcanvas-bar">
         <div class="uk-panel hamburger">
+            <a href="#nav-off" class="uk-close"></a>
             <?php html5blank_nav(); ?>
+            <div class="copyright"><?php echo 'SSC '.comicpress_copyright(); ?></div>
         </div>
     </div>
 </div>

@@ -791,3 +791,24 @@ div.wpcf7-response-output {
     border: 1px solid #ff0000;
     color: #C10000;
 }
+
+/*Hamburger Menu*/
+.uk-panel.hamburger ul{
+    list-style-type: none;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+.uk-close{
+    font-size: 3em;
+    float: right;
+    display: block;
+    opacity: 1;
+    color: #fff;
+    margin-right: 0.5em;
+}
+
+.copyright{
+    opacity: 0.5;
+    color: #fff;
+    text-align: center;
+}
