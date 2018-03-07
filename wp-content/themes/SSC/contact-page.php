@@ -16,7 +16,7 @@
     <div class="uk-width-1-1 second-titel">
         <?php echo apply_filters('the_content', get_post_field('post_content', $post_id)); ?>
     </div>
-    <div class="uk-width-1-1 titel">
+    <div class="uk-width-1-1 titel" id="form">
         <?php echo get_the_post_thumbnail($post_id = 133); ?>
     </div>
 
