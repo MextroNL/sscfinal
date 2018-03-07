@@ -3,7 +3,7 @@
 <head>
     <title>SSC</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="<?php echo home_url('/wp-content/themes/ssc/js/uikit.min.js'); ?>"></script>
+    <script src="<?php echo home_url('wp-content/themes/SSC/js/uikit.min.js'); ?>"></script>
     <script src="https://use.fontawesome.com/46636d4f0f.js"></script>
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/uikit.min.css"/>
@@ -14,11 +14,12 @@
     </style>
 
     <meta description="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="uk-grid navigatiebalk">
     <div class="uk-width-1-2">
-        <a href="http://localhost/sscfinal/home/"> <img class="ssclogo" src="
+        <a href="<?php echo home_url();?>"> <img class="ssclogo" src="
         <?php echo home_url('wp-content/uploads/2018/01/logo.png'); ?>" alt="Logo"> </a>
     </div>
 
@@ -49,6 +50,17 @@
         <div class="uk-panel hamburger">
             <a href="#nav-off" class="uk-close"></a>
             <?php html5blank_nav(); ?>
+            <div class="hamsocialbuttons">
+                <a target="blank" href="https://www.facebook.com/scalda.domeinictbeheer/"> <i
+                            class="fa fa-facebook hamsocialbutton"
+                            aria-hidden="true"></i></a>
+                <a target="blank" href="https://twitter.com/SSC_Scalda">
+                    <i class="fa fa-twitter hamsocialbutton"
+                       aria-hidden="true"></i></a>
+                <a target="blank" href="https://www.linkedin.com/in/ssc-scalda-bb7410b8"> <i
+                            class="fa fa-linkedin hamsocialbutton"
+                            aria-hidden="true"></i></a>
+            </div>
             <div class="copyright"><?php echo 'SSC '.comicpress_copyright(); ?></div>
         </div>
     </div>
