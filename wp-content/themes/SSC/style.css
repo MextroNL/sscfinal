@@ -498,7 +498,7 @@ iframe {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    font-size: 0.9em;
+    font-size: 0.6em;
 
 }
 
@@ -604,7 +604,9 @@ iframe {
         font-size: 2em!important;
 
     }
-
+    .videoblok {
+        max-width: 80%!important;
+    }
 
 }
 
@@ -732,6 +734,7 @@ iframe {
     border-style: solid;
     font-size: 15px;
     float: right;
+    cursor: pointer;
 }
 .wpcf7 input[type="number"]{
     padding-left: 1%;
@@ -798,6 +801,10 @@ div.wpcf7-response-output {
     font-size: 1.3em;
     line-height: 2em;
 }
+.uk-panel.hamburger a:hover{
+    color: #f89d32!important;
+    text-decoration: none;
+}
 .uk-close{
     font-size: 3em;
     float: right;
@@ -810,5 +817,28 @@ div.wpcf7-response-output {
 .copyright{
     opacity: 0.5;
     color: #fff;
+    text-align: center;
+    margin-top: 1em ;
+}
+
+
+.hamsocialbutton {
+    padding: 8px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 50%;
+    border-width: 2px;
+    color: #fff;
+    border-color: #fff;
+    width: 1rem;
+    text-align: center;
+}
+
+.hamsocialbutton:hover {
+    border-color: #f89d32;
+    color: #f89d32;
+}
+
+.hamsocialbuttons{
     text-align: center;
 }
