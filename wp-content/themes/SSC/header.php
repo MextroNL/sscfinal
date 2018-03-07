@@ -3,7 +3,7 @@
 <head>
     <title>SSC</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="<?php echo home_url('/wp-content/themes/ssc/js/uikit.min.js'); ?>"></script>
+    <script src="<?php echo home_url('wp-content/themes/SSC/js/uikit.min.js'); ?>"></script>
     <script src="https://use.fontawesome.com/46636d4f0f.js"></script>
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/uikit.min.css"/>
