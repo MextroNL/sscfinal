@@ -11,7 +11,9 @@
                 <td><i class="fa fa-envelope" aria-hidden="true"></i>projecten@ssc-scalda.nl</td>
             </tr>
         </table>
+
     </div>
+    <div class="copyrightbottom"><?php echo 'Shared Service Center '.comicpress_copyright(); ?></div>
 </div>
 
 

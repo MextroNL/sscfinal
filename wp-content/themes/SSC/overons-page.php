@@ -18,7 +18,7 @@
         $featured = get_the_post_thumbnail_url($post->ID, 'thumbnail', true);
         $url = $src[0];
         ?>
-        <h2 class="titel">
+        <h2 class="titel" id="about">
             <?php echo get_the_title($post_id=83); ?>
         </h2>
         <?php echo apply_filters('the_content', get_post_field('post_content', $post_id)); ?>
@@ -46,7 +46,7 @@
         </div>
         <?php echo apply_filters('the_content', get_post_field('post_content', $post_id)); ?>
 
-       <a href="http://localhost/sscfinal/projecten/"> <button class="werkzaamknop"><span>Bekijk projecten</span></button></a>
+       <a href="<?php echo home_url('projecten/#projectlist'); ?>"> <button class="werkzaamknop"><span>Bekijk projecten</span></button></a>
     </div>
 </div>
 <?php get_footer(); ?>

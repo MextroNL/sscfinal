@@ -262,23 +262,26 @@
 
 /*CONTENT HOME*/
 
+.post {
+    /*margin-left: 50px;*/
+}
+
 .posttitle {
     font-size: 2.5em;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: 50px;
     line-height: 1.2em;
+    margin-left: 50px;
 }
 
 .postcontent {
-    margin-left: 50px;
     margin-bottom: 30px;
     margin-right: 8em;
     align-items: center;
     font-size: 1.2em;
     line-height: 1.5em;
-
+    margin-left: 50px;
 }
 
 .videoblok {
@@ -384,7 +387,6 @@ iframe {
     max-width:70%;
     margin: auto;
     margin-bottom: 30px;
-    text-align: center;
     font-size: 1.2em;
 }
 
@@ -522,7 +524,6 @@ iframe {
 .thumbnailblok{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .meerinformatie {
@@ -539,7 +540,7 @@ iframe {
 
 .projectthumbnail {
     margin-top: 25px;
-    margin-right: 25px;
+    /*margin-right: 25px;*/
     width: 500px;
 }
 
@@ -585,6 +586,19 @@ iframe {
         font-weight: unset !important;
     }
 
+    .postcontent {
+        margin-left: 20px!important;
+        margin-right: 1em!important;
+    }
+
+    .posttitle {
+        margin-left: 20px!important;
+    }
+
+    .content-text {
+        max-width: 95%!important;
+    }
+
 }
 
 @media all and (min-width: 551px) and (max-width: 1000px) {
@@ -597,7 +611,6 @@ iframe {
     }
     .caption-wrap {
         font-size: 3em!important;
-
     }
 
     .pagename {
@@ -608,9 +621,17 @@ iframe {
         max-width: 80%!important;
     }
 
+    .postcontent {
+        margin-right: 1em!important;
+    }
+
+    .content-text {
+        max-width: 95%!important;
+     }
+
 }
 
-@media all and (min-width: 800px) and (max-width: 1450px) {
+@media all and (min-width: 800px) and (max-width: 1920px) {
     .videoblok, .contentblok{
         width: 80%!important;
     }
@@ -624,6 +645,17 @@ iframe {
 
     }
 
+    /*.posttitle {*/
+        /*margin-left: 2em!important;*/
+    /*}*/
+
+    /*.postcontent {*/
+        /*margin-left: 5em!important;*/
+    /*}*/
+
+    .post {
+        padding-left: 20px;
+    }
 
 }
 
@@ -788,7 +820,14 @@ div.wpcf7-response-output {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+
+div.wpcf7-mail-sent-ok {
+    background: #e4ffe2;
+    border: 1px solid #00ff00;
+    color: #00a000;
+}
 /*End*/
+
 .wpcf7 span:invalid{
     background: #ffe2e2;
     border: 1px solid #ff0000;
@@ -819,6 +858,13 @@ div.wpcf7-response-output {
     color: #fff;
     text-align: center;
     margin-top: 1em ;
+}
+.copyrightbottom{
+    font-size: 1.2em;
+    opacity: 0.7;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 
