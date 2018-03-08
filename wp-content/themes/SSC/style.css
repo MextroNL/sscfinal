@@ -524,7 +524,6 @@ iframe {
 .thumbnailblok{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .meerinformatie {
@@ -541,7 +540,7 @@ iframe {
 
 .projectthumbnail {
     margin-top: 25px;
-    margin-right: 25px;
+    /*margin-right: 25px;*/
     width: 500px;
 }
 
