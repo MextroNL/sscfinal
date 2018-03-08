@@ -20,7 +20,7 @@
             ?>
             <?php echo apply_filters('the_content', get_post_field('post_content', $post_id)); ?>
         </div>
-        <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1">
+        <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1 post">
             <?php
             $post_id = 52;
             $post_data = get_post($post_id);
