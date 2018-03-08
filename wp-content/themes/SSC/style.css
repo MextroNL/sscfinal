@@ -820,7 +820,14 @@ div.wpcf7-response-output {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+
+div.wpcf7-mail-sent-ok {
+    background: #e4ffe2;
+    border: 1px solid #00ff00;
+    color: #00a000;
+}
 /*End*/
+
 .wpcf7 span:invalid{
     background: #ffe2e2;
     border: 1px solid #ff0000;
