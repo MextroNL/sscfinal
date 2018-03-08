@@ -20,7 +20,7 @@
             ?>
             <?php echo apply_filters('the_content', get_post_field('post_content', $post_id)); ?>
         </div>
-        <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1">
+        <div class="uk-width-large-1-2 uk-width-medium-1-1 uk-width-small-1-1 post">
             <?php
             $post_id = 52;
             $post_data = get_post($post_id);
@@ -66,7 +66,7 @@
             <div class="secondary-titel">
                 <?php echo the_secondary_title($post_id); ?>
             </div>
-            <a href="http://localhost/sscfinal/over-ons/"><button class="vlakbutton"><span>Lees meer</span></button></a>
+            <a href="<?php echo home_url('over-ons/#about'); ?>"><button class="vlakbutton"><span>Lees meer</span></button></a>
         </div>
         <!-- eind 'Over ons'-->
 
@@ -92,7 +92,7 @@
             <div class="paginacontent">
                 <?php echo apply_filters('the_content', get_post_field('post_content', $post_id)); ?>
             </div>
-            <a href="http://localhost/sscfinal/projecten/"><button class="vlakbutton"><span>Lees meer</span></button></a>
+            <a href="<?php echo home_url('projecten/#projectlist'); ?>"><button class="vlakbutton"><span>Lees meer</span></button></a>
         </div>
         <!-- eind 'projecten'-->
 
@@ -115,7 +115,7 @@
             <div class="secondary-titel">
                 <?php echo the_secondary_title($post_id); ?>
             </div>
-            <a href="http://localhost/sscfinal/contact/"><button class="vlakbutton"><span>Lees meer</span></button></a>
+            <a href="<?php echo home_url('contact/#form'); ?>"><button class="vlakbutton"><span>Lees meer</span></button></a>
         </div>
     </div>
     <!-- eind 'contact'-->
