@@ -10,7 +10,7 @@
 <?php get_header(); ?>
 
     <div class="uk-grid">
-        <div class="uk-width-1-1 titel">
+        <div class="uk-width-1-1 titel" id="projectlist">
             <?php echo get_the_title($post_id = 120); ?>
         </div>
         <div class="uk-width-1-1 titel">
@@ -54,7 +54,7 @@
     </div>
     <div class="uk-grid">
         <div class="uk-width-1-1 project">
-            <a href="http://localhost/sscfinal/projectaanvraag/">
+            <a href="<?php echo home_url('projectaanvraag/#form'); ?>">
                 <button class="vlakbutton"><span>Project aanvragen</span></button>
             </a>
         </div>

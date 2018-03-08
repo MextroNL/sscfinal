@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <title>SSC</title>
+
+    <title>Shared Service Center</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="<?php echo home_url('wp-content/themes/SSC/js/uikit.min.js'); ?>"></script>
     <script src="https://use.fontawesome.com/46636d4f0f.js"></script>
 
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/uikit.min.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -76,12 +78,12 @@
             </div>
             <!-- Button "Project aanvragen" op de Home -->
 
-            <a href="http://localhost/sscfinal/projectaanvraag/">
+            <a href="<?php echo home_url('projectaanvraag/#form'); ?>">
                 <button class="slidelow-button uk-hidden-medium uk-hidden-small">
                     <span>Project aanvragen</span>
                 </button>
             </a>
-            <a href="http://localhost/sscfinal/projectaanvraag/">
+            <a href="<?php echo home_url('projectaanvraag/#form'); ?>">
                 <button class="slidelow-klein uk-hidden-large">
                     <span>Project aanvragen</span>
                 </button>
