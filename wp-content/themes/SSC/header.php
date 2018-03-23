@@ -15,14 +15,15 @@
         @import url('https://fonts.googleapis.com/css?family=Oswald');
     </style>
 
-    <meta description="">
+    <meta name="description" content="Het ICT leerbedrijf Shared Service Center in Vlissingen."/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 <div class="uk-grid navigatiebalk">
     <div class="uk-width-1-2">
         <a href="<?php echo home_url();?>"> <img class="ssclogo" src="
-        <?php echo home_url('wp-content/uploads/2018/01/logo.png'); ?>" alt="Logo"> </a>
+        <?php echo home_url('wp-content/uploads/2018/01/logo.png'); ?>" alt="Logo SSC"> </a>
     </div>
 
     <div class="uk-width-large-1-2 uk-hidden-small uk-hidden-medium navigatiemenu">
