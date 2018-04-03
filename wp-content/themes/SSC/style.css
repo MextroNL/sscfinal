@@ -544,6 +544,10 @@ iframe {
     width: 500px;
 }
 
+.back button {
+
+}
+
 /*CONTACT-PAGINA*/
 
 .second-titel {
@@ -790,6 +794,7 @@ textarea:focus {
 .wpcf7 form p{
     padding-right: 5%;
     text-align: left;
+    padding-bottom: 1.5em;
 }
 
 #imglink{
