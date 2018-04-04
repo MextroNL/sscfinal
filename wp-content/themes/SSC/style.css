@@ -714,6 +714,7 @@ iframe {
 
 .fa-map-marker, .fa-phone, .fa-envelope {
     margin-right: 5px;
+    color: #fff;
 }
 
 /*MEERDERE PAGINAS*/
@@ -892,4 +893,8 @@ div.wpcf7-mail-sent-ok {
 
 .hamsocialbuttons{
     text-align: center;
+}
+
+#con-link{
+    color: #fff;
 }
