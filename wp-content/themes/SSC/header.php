@@ -48,7 +48,7 @@
 </div>
 
 <div id="nav-off" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
         <div class="uk-panel hamburger">
             <a href="#nav-off" class="uk-close"></a>
             <?php html5blank_nav(); ?>
