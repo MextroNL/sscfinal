@@ -79,12 +79,7 @@
             <!-- Button "Project aanvragen" op de Home -->
 
             <a href="<?php echo home_url('projectaanvraag/#form'); ?>">
-                <button class="slidelow-button uk-hidden-medium uk-hidden-small">
-                    <span>Project aanvragen</span>
-                </button>
-            </a>
-            <a href="<?php echo home_url('projectaanvraag/#form'); ?>">
-                <button class="slidelow-klein uk-hidden-large">
+                <button class="slidelow-button">
                     <span>Project aanvragen</span>
                 </button>
             </a>

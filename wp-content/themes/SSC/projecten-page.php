@@ -21,7 +21,7 @@
     <div class="uk-grid projectenblok">
 <?php
 $args = array(
-    'posts_per_page' => 6,
+//    'posts_per_page' => 6,
     'offset' => 0,
     'cat' => 8,
     'orderby' => 'post_date',
