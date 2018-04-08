@@ -55,19 +55,6 @@ else : ?>
 
     </div>
 
-<!--    <button class="back" onclick="goBack()">-->
-<!--        <img src="https://puu.sh/zSedE/2a95a99142.jpg"/>-->
-<!--    </button>-->
-<!---->
-<!--    <button class="back" onclick="goBack()">-->
-<!--        <img src="https://puu.sh/zSedE/2a95a99142.jpg"/>-->
-<!--    </button>-->
-
-    <form>
-        <input type="button" value="<< Back" onClick="Back1()">
-        <input type="button" value="Forward >>" onClick="Forward1()">
-    </form>
-
     <script language="JavaScript">
         <!--//
         function Back()

@@ -200,7 +200,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    bottom:1em;
+    bottom: 1.5em;
 }
 
 .slidelow-button span {
@@ -312,11 +312,6 @@ iframe {
     margin-top: 8px;
 }
 
-.project {
-    display: flex;
-    justify-content: center;
-}
-
 .vlakbutton span {
     cursor: pointer;
     display: inline-block;
@@ -333,11 +328,6 @@ iframe {
     transition: 0.5s;
 }
 
-.vlak {
-    width: 33%;
-    float: right;
-}
-
 .vlakbutton:hover span {
     padding-right: 25px;
 }
@@ -345,6 +335,16 @@ iframe {
 .vlakbutton:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+}
+
+.vlak {
+    width: 33%;
+    float: right;
 }
 
 .paginablok {
@@ -517,12 +517,46 @@ iframe {
 
 .projectthumbnail {
     margin-top: 25px;
-    /*margin-right: 25px;*/
+    margin-left: 50px;
     width: 500px;
 }
 
-.back button {
+.projectbutton {
+    border-radius: 2px;
+    background-color: #f89d32;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 13px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 8px;
+}
 
+.projectbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.projectbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.projectbutton:hover span {
+    padding-right: 25px;
+}
+
+.projectbutton:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 /*CONTACT-PAGINA*/
@@ -553,6 +587,18 @@ iframe {
 
     .posttitle {
         line-height: 1.3em!important;
+    }
+
+    .second-titel {
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .titel {
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
     }
 
     .footercontent {
@@ -586,6 +632,28 @@ iframe {
         bottom: 0.5em;
         width: 10em;
         font-size: 0.7em;
+    }
+
+    .wpcf7 textarea {
+        width: 60%!important;
+    }
+
+    .wpcf7 input[type="email"] {
+        width: 60%!important;
+    }
+
+    .wpcf7 input[type="text"] {
+        width: 60%!important;
+    }
+
+    .wpcf7 input[type="number"] {
+        width: 60%!important;
+    }
+
+    .wpcf7 {
+        font-size: 125%!important;
+        margin-left: 30px!important;
+        text-align: left!important;
     }
 
 }
@@ -645,7 +713,6 @@ iframe {
     .post {
         padding-left: 20px;
     }
-
 }
 
 
