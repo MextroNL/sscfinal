@@ -26,41 +26,46 @@
         echo "<div class='uk-width-1-1 fout' role='alert'>";
         echo "Je moet een naam invullen.<br>";
         echo "</div>";
+        echo "<style>#firstname{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
     }
-    $character = htmlspecialchars(trim($_POST["first-name"]));
-    $len = strlen($character);
-    $min = 3;
-    if($len < $min){
-        echo "<div class='uk-width-1-1 fout' role='alert'>";
-        echo "Je naam moet minimaal 3 characters bevatten.<br>";
-        echo "</div>";
-    }
+//    $character = htmlspecialchars(trim($_POST["first-name"]));
+//    $len = strlen($character);
+//    $min = 3;
+//    if($len < $min){
+//        echo "<div class='uk-width-1-1 fout' role='alert'>";
+//        echo "Je naam moet minimaal 3 characters bevatten.<br>";
+//        echo "</div>";
+//    }
     if(empty(htmlspecialchars(trim($_POST["sur-name"])))) {
         echo "<div class='uk-width-1-1 fout'>";
         echo "Je moet een achternaam invullen.<br>";
         echo "</div>";
+        echo "<style>#surname{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
     }
-    $character2 = htmlspecialchars(trim($_POST["sur-name"]));
-    $len2 = strlen($character2);
-    $min2 = 5;
-    if($len2 < $min2){
-        echo "<div class='uk-width-1-1 fout' role='alert'>";
-        echo "Je achternaam moet minimaal 5 characters bevatten.<br>";
-        echo "</div>";
-    }
+//    $character2 = htmlspecialchars(trim($_POST["sur-name"]));
+//    $len2 = strlen($character2);
+//    $min2 = 5;
+//    if($len2 < $min2){
+//        echo "<div class='uk-width-1-1 fout' role='alert'>";
+//        echo "Je achternaam moet minimaal 5 characters bevatten.<br>";
+//        echo "</div>";
+//    }
     if(empty(htmlspecialchars(trim($_POST["your-email"])))) {
         echo "<div class='uk-width-1-1 fout'>";
         echo "Je moet een email adres invullen.<br>";
         echo "</div>";
+        echo "<style>#email{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
     } elseif(!filter_var($_POST["your-email"], FILTER_VALIDATE_EMAIL)) {
         echo "<div class='uk-width-1-1 fout'>";
         echo "Je moet een geldig email adres invullen.<br>";
         echo "</div>";
+        echo "<style>#email{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
     }
     if(empty(htmlspecialchars(trim($_POST["your-message"])))) {
         echo "<div class='uk-width-1-1 fout'>";
         echo "Je moet een vraag invullen.";
         echo "</div>";
+        echo "<style>#message{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
     }
     }
     ?>

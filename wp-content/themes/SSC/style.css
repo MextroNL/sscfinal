@@ -471,7 +471,7 @@ iframe {
     text-decoration: none;
     opacity: 0;
     height: 100%;
-    width: 94.6%;
+    width: auto;
     color: #fff;
     text-align: left;
     padding-left: 10px;
@@ -871,7 +871,6 @@ div.wpcf7-validation-errors {
     background: #ffe2e2;
     border: 1px solid #ff0000;
     color: #C10000;
-    display: none;
 }
 
 div.wpcf7-response-output {
