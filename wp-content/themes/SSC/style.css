@@ -185,7 +185,7 @@
 }
 
 .slidelow-button {
-    position: absolute!important;
+    flex-grow: 1;
     border-radius: 2px;
     background-color: #6bb444;
     border: none;
@@ -193,41 +193,25 @@
     width: 250px;
     transition: all 0.5s;
     cursor: pointer;
-    height: 60px;
-    bottom: 150px;
-    right: 100px;
+    height: 3em;
     z-index: 2;
     color: white;
-}
-
-.slidelow-klein {
-    position: absolute!important;
-    border-radius: 2px;
-    background-color: #6bb444;
-    border: none;
-    font-size: 1.1em;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    left: 5%;
-    bottom: 5%;
-    height: 30px;
-    z-index: 2;
-    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 1.5em;
 }
 
 .slidelow-button span {
     cursor: pointer;
     display: inline-block;
-    transition: 0.5s;
-
+    margin: 0 auto;
 }
 
 .slidelow-button span:after {
     content: '\00bb';
     opacity: 0;
-    transition: 0.5s;
-
 }
 
 .slidelow-button:hover span {
@@ -258,10 +242,6 @@
 }
 
 /*CONTENT HOME*/
-
-.post {
-    /*margin-left: 50px;*/
-}
 
 .posttitle {
     font-size: 2.5em;
@@ -332,11 +312,6 @@ iframe {
     margin-top: 8px;
 }
 
-.project {
-    display: flex;
-    justify-content: center;
-}
-
 .vlakbutton span {
     cursor: pointer;
     display: inline-block;
@@ -353,11 +328,6 @@ iframe {
     transition: 0.5s;
 }
 
-.vlak {
-    width: 33%;
-    float: right;
-}
-
 .vlakbutton:hover span {
     padding-right: 25px;
 }
@@ -365,6 +335,16 @@ iframe {
 .vlakbutton:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+}
+
+.vlak {
+    width: 33%;
+    float: right;
 }
 
 .paginablok {
@@ -535,12 +515,46 @@ iframe {
 
 .projectthumbnail {
     margin-top: 25px;
-    /*margin-right: 25px;*/
+    margin-left: 50px;
     width: 500px;
 }
 
-.back button {
+.projectbutton {
+    border-radius: 2px;
+    background-color: #f89d32;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 13px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 8px;
+}
 
+.projectbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.projectbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.projectbutton:hover span {
+    padding-right: 25px;
+}
+
+.projectbutton:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 /*CONTACT-PAGINA*/
@@ -554,12 +568,13 @@ iframe {
 @media all and (min-width: 0px) and (max-width: 550px) {
     .caption-wrap{
         font-size: 2em!important;
+        top: 10%!important;
     }
 
     .pagename{
         font-size: 1.5em!important;
+        top: 20%;
     }
-
 
     iframe {
          margin-left: 0!important;
@@ -570,6 +585,18 @@ iframe {
 
     .posttitle {
         line-height: 1.3em!important;
+    }
+
+    .second-titel {
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .titel {
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
     }
 
     .footercontent {
@@ -598,6 +625,35 @@ iframe {
         max-width: 95%!important;
     }
 
+    .slidelow-button {
+        height: 3em;
+        bottom: 0.5em;
+        width: 10em;
+        font-size: 0.7em;
+    }
+
+    .wpcf7 textarea {
+        width: 60%!important;
+    }
+
+    .wpcf7 input[type="email"] {
+        width: 60%!important;
+    }
+
+    .wpcf7 input[type="text"] {
+        width: 60%!important;
+    }
+
+    .wpcf7 input[type="number"] {
+        width: 60%!important;
+    }
+
+    .wpcf7 {
+        font-size: 125%!important;
+        margin-left: 30px!important;
+        text-align: left!important;
+    }
+
 }
 
 @media all and (min-width: 551px) and (max-width: 1000px) {
@@ -610,11 +666,12 @@ iframe {
     }
     .caption-wrap {
         font-size: 3em!important;
+        top: 10%!important;
     }
 
     .pagename {
         font-size: 2em!important;
-
+        top: 25%;
     }
     .videoblok {
         max-width: 80%!important;
@@ -627,6 +684,13 @@ iframe {
     .content-text {
         max-width: 95%!important;
      }
+
+    .slidelow-button {
+        height: 2.5em;
+        bottom: 1em;
+        font-size: 1em;
+        width: 10em;
+    }
 
 }
 
@@ -644,18 +708,9 @@ iframe {
 
     }
 
-    /*.posttitle {*/
-        /*margin-left: 2em!important;*/
-    /*}*/
-
-    /*.postcontent {*/
-        /*margin-left: 5em!important;*/
-    /*}*/
-
     .post {
         padding-left: 20px;
     }
-
 }
 
 
