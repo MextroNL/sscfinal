@@ -28,6 +28,9 @@
         echo "</div>";
         echo "<style>#firstname{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
     }
+    else{
+        echo "<style>#firstname{background-color: #e4ffe2;border-color: #00ff00; color: #00a000}</style>";
+    }
 //    $character = htmlspecialchars(trim($_POST["first-name"]));
 //    $len = strlen($character);
 //    $min = 3;
@@ -41,6 +44,9 @@
         echo "Je moet een achternaam invullen.<br>";
         echo "</div>";
         echo "<style>#surname{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
+    }
+    else{
+        echo "<style>#surname{background-color: #e4ffe2;border-color: #00ff00; color: #00a000}</style>";
     }
 //    $character2 = htmlspecialchars(trim($_POST["sur-name"]));
 //    $len2 = strlen($character2);
@@ -61,11 +67,17 @@
         echo "</div>";
         echo "<style>#email{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
     }
+    else{
+        echo "<style>#email{background-color: #e4ffe2;border-color: #00ff00; color: #00a000}</style>";
+    }
     if(empty(htmlspecialchars(trim($_POST["your-message"])))) {
         echo "<div class='uk-width-1-1 fout'>";
         echo "Je moet een vraag invullen.";
         echo "</div>";
         echo "<style>#message{background-color: #ffe2e2;border-color: #ff0000; color: #c10000}</style>";
+    }
+    else{
+        echo "<style>#message{background-color: #e4ffe2;border-color: #00ff00; color: #00a000}</style>";
     }
     }
     ?>
