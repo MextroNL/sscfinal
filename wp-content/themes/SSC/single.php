@@ -15,13 +15,11 @@
                 <?php echo apply_filters('the_content', get_post_field('post_content', $post_id)); ?>
             </div>
         </div>
-    </div>
+        <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 buttoncenter">
+                <a href="<?php echo home_url('projecten/#projectlist'); ?>">
+                    <button class="projectbutton"><span>Ga terug naar de projectenpagina</span></button>
+                </a>
 
-    <div class="uk-grid">
-        <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
-            <a href="<?php echo home_url('projecten/#projectlist'); ?>">
-                <button class="projectbutton"><span>Ga terug naar de projectenpagina</span></button>
-            </a>
         </div>
     </div>
 <?php get_footer(); ?>
