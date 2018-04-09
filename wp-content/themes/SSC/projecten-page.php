@@ -21,7 +21,7 @@
     <div class="uk-grid projectenblok">
 <?php
 $args = array(
-    'posts_per_page' => 6,
+//    'posts_per_page' => 6,
     'offset' => 0,
     'cat' => 8,
     'orderby' => 'post_date',
@@ -63,23 +63,7 @@ else : ?>
 <!--        <img src="https://puu.sh/zSedE/2a95a99142.jpg"/>-->
 <!--    </button>-->
 
-    <form>
-        <input type="button" value="<< Back" onClick="Back1()">
-        <input type="button" value="Forward >>" onClick="Forward1()">
-    </form>
 
-    <script language="JavaScript">
-        <!--//
-        function Back()
-        {
-            history.go(-1);
-        }
-        function Forward()
-        {
-            history.go(+1);
-        }
-        -->
-    </script>
 
     <div class="uk-grid">
         <div class="uk-width-1-1 project">

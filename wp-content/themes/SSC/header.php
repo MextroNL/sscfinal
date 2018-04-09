@@ -72,7 +72,28 @@
 <div class="uk-grid">
     <div class="uk-width-1-1 metasliderblok">
         <div class="metaslider">
-            <?php echo do_shortcode('[metaslider id="67"]'); ?>
+            <?php
+            //Different Slides for each page
+            if ( is_front_page() ) {
+                echo do_shortcode("[metaslider id=67]");
+                //Home
+            } elseif ( is_page( 'over-ons' ) ) {
+                echo do_shortcode("[metaslider id=193]");
+                //Over Ons
+            } elseif ( is_page( 'projecten' ) ) {
+                echo do_shortcode("[metaslider id=196]");
+                //Projecten
+            } elseif ( is_page( 'contact' ) ) {
+            echo do_shortcode("[metaslider id=199]");
+                //Contact
+            } elseif ( is_page( 'projectaanvraag' ) ) {
+                echo do_shortcode("[metaslider id=201]");
+                //Project Aanvraag
+            }elseif ( is_single() ) {
+                echo do_shortcode("[metaslider id=203]");
+                //Post Page
+            }
+            ?>
             <div class="pagename">
                 <?php echo wp_title(''); ?>
             </div>

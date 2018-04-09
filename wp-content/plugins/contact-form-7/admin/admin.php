@@ -422,7 +422,7 @@ function wpcf7_admin_bulk_validate_page() {
 <form method="post" action="">
 	<input type="hidden" name="action" value="validate" />
 	<?php wp_nonce_field( 'wpcf7-bulk-validate' ); ?>
-	<p><input type="submit" class="button" value="<?php echo esc_attr( $submit_text ); ?>" /></p>
+	<p><input type="submit" name="verzend" class="button" value="<?php echo esc_attr( $submit_text ); ?>" /></p>
 </form>
 
 <?php echo wpcf7_link( __( 'https://contactform7.com/configuration-validator-faq/', 'contact-form-7' ), __( 'FAQ about Configuration Validator', 'contact-form-7' ) ); ?>

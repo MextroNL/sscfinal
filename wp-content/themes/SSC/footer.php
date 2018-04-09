@@ -17,6 +17,8 @@
     <div class="copyrightbottom"><?php echo 'Shared Service Center '.comicpress_copyright(); ?></div>
 </div>
 
-
+<script>
+    $('#verzend-knop').attr('name', 'verzenden');
+</script>
 </body>
 </html>

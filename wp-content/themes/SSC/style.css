@@ -485,20 +485,18 @@ iframe {
     justify-content: center;
 }
 
-.project-excerpt{
+.project-excerpt {
     background-color: rgba(180, 180, 180, 0.45);
     position: absolute;
     text-decoration: none;
     opacity: 0;
     height: 100%;
-    width: auto;
+    width: 94.6%;
     color: #fff;
     text-align: left;
     padding-left: 10px;
-    padding-right: 10px;
     border-radius: 10px;
     font-size: 0.6em;
-
 }
 
 .meerinformatie:hover + .project-box{
@@ -668,7 +666,7 @@ iframe {
         z-index: 4;
         cursor: pointer;
         height: 23.5em;
-        width: 17em;
+        width: 50%;
         border: 0px solid #86ce5c;
         border-radius: 10px;
         margin-top: auto;
@@ -812,6 +810,7 @@ div.wpcf7-validation-errors {
     background: #ffe2e2;
     border: 1px solid #ff0000;
     color: #C10000;
+    display: none;
 }
 
 div.wpcf7-response-output {
@@ -821,6 +820,22 @@ div.wpcf7-response-output {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+}
+
+div.fout {
+    display: inline;
+    background: #ffe2e2;
+    border: 1px solid #ff0000;
+    color: #C10000;
+    margin: 0.4em 0;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 125%;
+    text-align: center;
+    width: 20%;
 }
 
 div.wpcf7-mail-sent-ok {
