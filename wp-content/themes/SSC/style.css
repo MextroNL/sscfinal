@@ -519,7 +519,13 @@ iframe {
     width: 500px;
 }
 
+
+.buttoncenter {
+    text-align: center;
+}
+
 .projectbutton {
+
     border-radius: 2px;
     background-color: #f89d32;
     border: none;
@@ -889,9 +895,10 @@ div.fout {
     -moz-box-sizing: border-box;
     font-size: 125%;
     text-align: center;
-    width: 20%;
-    display: none;
+}
 
+#form {
+    /*width: 50%;*/
 }
 
 div.wpcf7-mail-sent-ok {
