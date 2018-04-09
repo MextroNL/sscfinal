@@ -895,6 +895,7 @@ div.fout {
     -moz-box-sizing: border-box;
     font-size: 125%;
     text-align: center;
+    display: none;
 }
 
 #form {
