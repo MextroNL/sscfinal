@@ -603,6 +603,11 @@ iframe {
         text-align: center;
         padding-left: 1.5em;
         padding-right: 1.5em;
+        font-size: 1.4em; !important;
+    }
+
+    .meerinformatie{
+        font-size: 1.4em; !important;
     }
 
     .footercontent {
@@ -625,6 +630,7 @@ iframe {
 
     .posttitle {
         margin-left: 20px!important;
+        font-size: 1.4em; !important;
     }
 
     .content-text {
@@ -658,6 +664,7 @@ iframe {
     .wpcf7 {
         font-size: 125%!important;
         margin-left: 30px!important;
+        margin-right: 30px!important;
         text-align: left!important;
     }
 
@@ -670,6 +677,10 @@ iframe {
 
     .posttitle {
         line-height: 1.2em!important;
+        font-size: 2em; !important;
+    }
+    .meerinformatie{
+        font-size: 2em; !important;
     }
     .caption-wrap {
         font-size: 3em!important;
@@ -698,6 +709,9 @@ iframe {
         font-size: 1em;
         width: 10em;
     }
+    .titel{
+        font-size: 2em; !important;
+    }
 
 }
 
@@ -718,6 +732,13 @@ iframe {
     .post {
         padding-left: 20px;
     }
+    .titel{
+        font-size: 2.5em; !important;
+    }
+    .posttitle{
+        font-size: 2.5em; !important;
+    }
+
 }
 
 
@@ -783,7 +804,7 @@ iframe {
 
 .titel {
     font-weight: bold;
-    font-size: 2.5em;
+    /*font-size: 2.5em;*/
     padding-top: 20px;
     text-align: center;
     line-height: 1.1em;
