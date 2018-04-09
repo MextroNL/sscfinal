@@ -48,7 +48,7 @@
 </div>
 
 <div id="nav-off" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
         <div class="uk-panel hamburger">
             <a href="#nav-off" class="uk-close"></a>
             <?php html5blank_nav(); ?>
@@ -72,19 +72,35 @@
 <div class="uk-grid">
     <div class="uk-width-1-1 metasliderblok">
         <div class="metaslider">
-            <?php echo do_shortcode('[metaslider id="67"]'); ?>
+            <?php
+            //Different Slides for each page
+            if ( is_front_page() ) {
+                echo do_shortcode("[metaslider id=67]");
+                //Home
+            } elseif ( is_page( 'over-ons' ) ) {
+                echo do_shortcode("[metaslider id=193]");
+                //Over Ons
+            } elseif ( is_page( 'projecten' ) ) {
+                echo do_shortcode("[metaslider id=196]");
+                //Projecten
+            } elseif ( is_page( 'contact' ) ) {
+            echo do_shortcode("[metaslider id=199]");
+                //Contact
+            } elseif ( is_page( 'projectaanvraag' ) ) {
+                echo do_shortcode("[metaslider id=201]");
+                //Project Aanvraag
+            }elseif ( is_single() ) {
+                echo do_shortcode("[metaslider id=203]");
+                //Post Page
+            }
+            ?>
             <div class="pagename">
                 <?php echo wp_title(''); ?>
             </div>
             <!-- Button "Project aanvragen" op de Home -->
 
             <a href="<?php echo home_url('projectaanvraag/#form'); ?>">
-                <button class="slidelow-button uk-hidden-medium uk-hidden-small">
-                    <span>Project aanvragen</span>
-                </button>
-            </a>
-            <a href="<?php echo home_url('projectaanvraag/#form'); ?>">
-                <button class="slidelow-klein uk-hidden-large">
+                <button class="slidelow-button">
                     <span>Project aanvragen</span>
                 </button>
             </a>
