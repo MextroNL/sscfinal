@@ -1,5 +1,7 @@
 /*NAVIGATIE*/
-
+.nav-wrapper{
+    z-index: 900;
+}
 .metasliderblok{
     padding-left: 0!important;
 }
@@ -97,14 +99,16 @@
 }
 
 .ssclogo {
-    width: 95px;
-    padding-top: 1.5em;
+    width: 85px;
+    padding-top: 0.5em;
     margin-bottom: 1.5em;
     padding-left: 1.5em;
 }
 
 .navigatiebalk {
-    height: 9em;
+    height: 6em;
+    z-index: 800;
+    background-color: #fff;
 }
 
 .navigatielogo {
@@ -127,7 +131,7 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    z-index: 1001;
+    z-index: 999;
     width: 270px;
     max-width: 100%;
     background: #6bb444;
@@ -175,7 +179,8 @@
     font-weight: bold!important;
     line-height: 1.5em !important;
     color: white !important;
-    opacity: 0.8!important;
+    opacity: 1!important;
+    text-shadow: 1px 1px 1px grey;
     text-align: center!important;
     -webkit-box-sizing: border-box!important;
     -moz-box-sizing: border-box!important;
@@ -232,7 +237,8 @@
     font-weight: bold;
     line-height: 3em;
     color: white;
-    opacity: 0.8;
+    opacity: 1;
+    text-shadow: 1px 1px 1px grey;
     text-align: center;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -570,7 +576,7 @@ iframe {
 }
 
 /* MEDIA QUERIES */
-
+/*Small*/
 @media all and (min-width: 0px) and (max-width: 550px) {
     .caption-wrap{
         font-size: 2em!important;
@@ -659,9 +665,13 @@ iframe {
         margin-left: 30px!important;
         text-align: left!important;
     }
+    .navigatiebalk {
+        height: 4em;
+
+    }
 
 }
-
+/*Medium*/
 @media all and (min-width: 551px) and (max-width: 1000px) {
     .nivo-caption{
         font-size: 3em!important;
@@ -699,7 +709,7 @@ iframe {
     }
 
 }
-
+/*Fullscreen*/
 @media all and (min-width: 800px) and (max-width: 1920px) {
     .videoblok, .contentblok{
         width: 80%!important;
