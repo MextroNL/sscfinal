@@ -17,6 +17,7 @@
 
     <meta description="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -88,6 +89,9 @@
                     //Project Aanvraag
                 }
                 ?>
+                <div class="caption-wrap">
+                    <div class="caption"><?php bloginfo( 'name' ); ?></div>
+                </div>
                 <div class="pagename">
                     <?php echo wp_title(''); ?>
                 </div>

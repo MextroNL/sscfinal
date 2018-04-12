@@ -1,6 +1,6 @@
 <?php
 wp_enqueue_style('style', get_stylesheet_uri());
-show_admin_bar(false);
+show_admin_bar(true);
 
 
 // Register HTML5 Blank Navigation

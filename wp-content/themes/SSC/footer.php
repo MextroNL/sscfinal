@@ -20,5 +20,6 @@
 <script>
     $('#verzend-knop').attr('name', 'verzenden');
 </script>
+<?php wp_footer(); ?>
 </body>
 </html>
