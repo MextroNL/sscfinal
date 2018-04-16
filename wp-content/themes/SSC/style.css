@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /*NAVIGATIE*/
 .nav-wrapper{
     z-index: 900;
@@ -642,6 +646,7 @@ iframe {
         bottom: 0.5em;
         width: 10em;
         font-size: 0.7em;
+        z-index: 890;
     }
 
     .wpcf7 textarea {
@@ -666,7 +671,7 @@ iframe {
         text-align: left!important;
     }
     .navigatiebalk {
-        height: 4em;
+        height: 6em;
 
     }
 

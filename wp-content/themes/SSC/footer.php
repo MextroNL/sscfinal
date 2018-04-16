@@ -1,4 +1,4 @@
-<div class="uk-grid footer">
+<div class="uk-grid footer" data-uk-parallax="{viewport: 0.5, y: 150, velocity: 0.1}">
     <div class="uk-width-1-1 footercontent">
         <table>
             <tr>

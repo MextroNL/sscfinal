@@ -49,7 +49,7 @@
 
     <!-- begin 'Over ons'-->
     <div class="uk-grid paginablok">
-        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 paginas">
+        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 paginas" data-uk-parallax="{opacity: '0,1', viewport: 0.5, y: 100, velocity: 0.1}">
             <?php
             $post_id = 57;
             $post_data = get_post($post_id);
@@ -72,7 +72,7 @@
         <!-- eind 'Over ons'-->
 
         <!-- begin 'Projecten'-->
-        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 paginas">
+        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 paginas" data-uk-parallax="{opacity: '0,1', viewport: 0.5, y: 100, velocity: 0.1}">
             <?php
             $post_id = 54;
             $post_data = get_post($post_id);
@@ -98,7 +98,7 @@
         <!-- eind 'projecten'-->
 
         <!-- begin 'contact'-->
-        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 paginas">
+        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1 paginas" data-uk-parallax="{opacity: '0,1', viewport: 0.5, y: 100, velocity: 0.1}">
             <?php
             $post_id = 59;
             $post_data = get_post($post_id);
