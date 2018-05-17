@@ -3,6 +3,17 @@
 <head>
 
     <title>Shared Service Center</title>
+
+    <meta name="description" content="Het Shared Service Center is een leerbedrijf voor studenten, door studenten.
+    Dit houd in dat de gehele omgeving word georganiseerd door de studenten zelf, van projectgroepen tot het management.
+    De belangrijkste factoren binnen onze formule zijn de externe opdrachtgever en de expert.
+    Wij werken graag samen met bedrijven die ons iets kunnen bij brengen of uit
+    kunnen dagen iets nieuws te leren. Ook werken wij veel samen met experts die ons helpen met de complexere
+    gedeeltes van de ICT, zodat we onze kennis direct uit het veld krijgen.">
+    
+    <meta name="keywords" content="Shared Service Center,SSC,ICT,Beheer,Servers,Onderhoud,Hardware,Software,Projecten,Vlissingen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="<?php echo home_url('wp-content/themes/SSC/js/uikit.min.js'); ?>"></script>
     <script src="https://use.fontawesome.com/46636d4f0f.js"></script>
@@ -17,9 +28,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Oswald');
     </style>
-
-    <meta description="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--    --><?php //wp_head(); ?>
 </head>
 
