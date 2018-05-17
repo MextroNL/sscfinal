@@ -471,6 +471,12 @@ iframe {
     margin-right: auto;
 }
 
+.verplicht{
+    color: #ff0000;
+    display: block;
+    text-align: right;
+    font-size: 12pt;
+}
 
 .projectfoto:hover ~ .meerinformatie {
     text-decoration: underline;
@@ -1011,3 +1017,4 @@ input[type=number] {
     /*appearance: textfield;*/
     margin: 0;
 }
+

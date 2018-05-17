@@ -92,19 +92,19 @@ $caption = '<div class="caption-wrap"><div class="caption" data-uk-parallax="{op
 
                     //Home
                 } elseif ( is_page( 'over-ons' ) ) {
-                    echo do_shortcode("[metaslider id=193]") . $caption;
+                    echo do_shortcode("[metaslider id=206]") . $caption;
                     //Over Ons
                 } elseif ( is_page( 'projecten' ) ) {
-                    echo do_shortcode("[metaslider id=196]") . $caption;
+                    echo do_shortcode("[metaslider id=209]") . $caption;
                     //Projecten
                 } elseif ( is_page( 'contact' ) ) {
-                    echo do_shortcode("[metaslider id=199]") . $caption;
+                    echo do_shortcode("[metaslider id=210]") . $caption;
                     //Contact
                 } elseif ( is_page( 'projectaanvraag' ) ) {
-                    echo do_shortcode("[metaslider id=201]") . $caption;
+                    echo do_shortcode("[metaslider id=211]") . $caption;
                     //Project Aanvraag
                 }elseif ( is_single() ) {
-                    echo do_shortcode("[metaslider id=203]") . $caption;
+                    echo do_shortcode("[metaslider id=212]") . $caption;
                     //Post Page
                 }elseif ( is_page( 'parallax' ) ) {
                     echo do_shortcode("[metaslider id=67]") . $caption;
