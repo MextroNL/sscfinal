@@ -76,7 +76,7 @@
         <div class="uk-width-1-1 metasliderblok" data-uk-parallax="{bgp: -30}">
             <div class="metaslider">
                 <?php
-$caption = '<div class="caption-wrap"><div class="caption" data-uk-parallax="{opacity:\'1.0\', viewport: 0.7, y: 200, velocity: 0.1}">Shared Service Center</div></div>';
+$caption = '<div class="caption-wrap"><div class="caption" data-uk-parallax="{opacity:\'0.5\', viewport: 0.7, y: 50, velocity: 0.1}">Shared Service Center</div></div>';
 
                 //Different Slides for each page
                 if ( is_front_page() ) {
@@ -107,7 +107,7 @@ $caption = '<div class="caption-wrap"><div class="caption" data-uk-parallax="{op
 <!--                <div class="caption-wrap" data-uk-parallax="{bgp: -30}">-->
 <!--                    <div class="caption" data-uk-parallax="{opacity:0, viewport: 0.7, y: 100}">--><?php //bloginfo( 'name' ); ?><!--</div>-->
 <!--                </div>-->
-                <div class="pagename" data-uk-parallax="{opacity: '1,0', viewport: 0.7, y: 200, velocity: 0.1}">
+                <div class="pagename" data-uk-parallax="{opacity: '0.5', viewport: 0.7, y: 50, velocity: 0.1}">
                     <?php echo wp_title(''); ?>
                 </div>
                 <!-- Button "Project aanvragen" op de Home -->
