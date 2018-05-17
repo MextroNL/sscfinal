@@ -303,8 +303,7 @@ iframe {
 
 .paginas {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 5em;
 }
 
 .paginatitle {
