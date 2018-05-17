@@ -10,7 +10,7 @@
     Wij werken graag samen met bedrijven die ons iets kunnen bij brengen of uit
     kunnen dagen iets nieuws te leren. Ook werken wij veel samen met experts die ons helpen met de complexere
     gedeeltes van de ICT, zodat we onze kennis direct uit het veld krijgen.">
-    
+
     <meta name="keywords" content="Shared Service Center,SSC,ICT,Beheer,Servers,Onderhoud,Hardware,Software,Projecten,Vlissingen">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
